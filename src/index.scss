@@ -1,0 +1,17 @@
+body {
+	background: linear-gradient(240deg, rgba(150, 50, 50, 0.3), rgba(0, 0, 200, 0));
+	color: #fff;
+	height: 100vh;
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+}
+
+@media screen and (min-width: 550px) {
+	#root {
+		align-items: center;
+		display: flex;
+		height: 100vh;
+		justify-content: center;
+	}
+}
